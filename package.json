@@ -1,0 +1,18 @@
+{
+    "name": "submitform",
+    "version": "1.0.0",
+    "description": "Submit form from srng.dev/contact to Email.",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "env-cmd functions-framework --target=submit"
+    },
+    "devDependencies": {
+        "@google-cloud/functions-framework": "^1.7.1",
+        "env-cmd": "^10.1.0"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.764.0",
+        "xss": "^1.0.8"
+    }
+}
